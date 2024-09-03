@@ -156,7 +156,7 @@ public class TeacherFormController implements Initializable {
 		Constraints.setTextFieldDouble(txtSalary);
 	}
 	
-	public void updateFormeData() {
+	public void updateFormData() {
 		if(entity == null) {
 			throw new IllegalStateException("Entity was null!");
 		}
